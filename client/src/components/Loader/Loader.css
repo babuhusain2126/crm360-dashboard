@@ -1,0 +1,9 @@
+.loader-wrap { display: flex; flex-direction: column; align-items: center; gap: var(--space-3); padding: var(--space-8); }
+.loader-spin {
+  border-radius: 50%;
+  border: 3px solid var(--border-subtle);
+  border-top-color: var(--color-primary-500);
+  animation: loader-rotate 0.8s linear infinite;
+}
+.loader-label { color: var(--text-secondary); font-size: var(--fs-sm); }
+@keyframes loader-rotate { to { transform: rotate(360deg); } }

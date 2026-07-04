@@ -1,0 +1,14 @@
+.notif-list { display: flex; flex-direction: column; }
+.notif-item {
+  display: flex; align-items: flex-start; gap: var(--space-3); padding: var(--space-4) var(--space-5);
+  border-bottom: 1px solid var(--border-subtle); cursor: pointer; position: relative;
+  transition: background var(--transition-fast);
+}
+.notif-item:hover { background: var(--bg-surface-alt); }
+.notif-item:last-child { border-bottom: none; }
+.notif-unread { background: var(--color-primary-50); }
+.notif-icon { font-size: 20px; }
+.notif-body { flex: 1; display: flex; flex-direction: column; gap: 2px; font-size: var(--fs-sm); }
+.notif-dot { width: 8px; height: 8px; border-radius: 50%; background: var(--color-primary-500); margin-top: 6px; }
+.notif-delete { background: none; border: none; color: var(--text-tertiary); cursor: pointer; padding: 4px; }
+.notif-delete:hover { color: var(--color-danger-500); }

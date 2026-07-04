@@ -1,0 +1,8 @@
+.searchbar {
+  display: flex; align-items: center; gap: var(--space-2);
+  background: var(--bg-surface); border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm); padding: 9px 14px; min-width: 220px;
+}
+.searchbar:focus-within { border-color: var(--color-primary-500); box-shadow: var(--shadow-focus); }
+.searchbar-icon { color: var(--text-tertiary); flex-shrink: 0; }
+.searchbar input { border: none; outline: none; background: transparent; width: 100%; font-size: var(--fs-sm); color: var(--text-primary); }

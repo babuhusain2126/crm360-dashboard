@@ -1,0 +1,4 @@
+.chart-card-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: var(--space-5); gap: var(--space-3); flex-wrap: wrap; }
+.chart-card-header h4 { font-size: var(--fs-md); }
+.chart-card-subtitle { font-size: var(--fs-xs); margin-top: 2px; }
+.chart-card-body { width: 100%; }

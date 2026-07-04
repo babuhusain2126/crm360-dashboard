@@ -1,0 +1,32 @@
+.page-stack { display: flex; flex-direction: column; gap: var(--space-5); }
+.page-header { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: var(--space-3); }
+.table-toolbar { display: flex; align-items: center; justify-content: space-between; padding: var(--space-5); flex-wrap: wrap; gap: var(--space-3); }
+.cell-with-avatar { display: flex; align-items: center; gap: var(--space-3); }
+.cell-primary { font-weight: 600; font-size: var(--fs-sm); }
+.cell-secondary { font-size: var(--fs-xs); }
+.row-actions { display: flex; gap: 4px; }
+.row-actions button {
+  width: 30px; height: 30px; border-radius: var(--radius-sm); border: 1px solid transparent;
+  background: none; cursor: pointer; color: var(--text-tertiary); display: flex; align-items: center; justify-content: center;
+}
+.row-actions button:hover { background: var(--bg-sunken); color: var(--text-primary); }
+.mobile-row-card { display: flex; flex-direction: column; gap: var(--space-3); margin-bottom: var(--space-3); }
+.mobile-row-meta { display: flex; align-items: center; justify-content: space-between; font-size: var(--fs-sm); font-weight: 600; }
+
+.detail-grid { display: grid; grid-template-columns: 320px 1fr; gap: var(--space-5); align-items: start; }
+.detail-profile { display: flex; flex-direction: column; align-items: center; text-align: center; gap: var(--space-2); }
+.detail-profile h3 { margin-top: var(--space-3); }
+.detail-info-list { display: flex; flex-direction: column; gap: var(--space-3); margin-top: var(--space-5); width: 100%; }
+.detail-info-row { display: flex; justify-content: space-between; font-size: var(--fs-sm); padding-bottom: var(--space-3); border-bottom: 1px solid var(--border-subtle); }
+.detail-info-row:last-child { border-bottom: none; }
+
+.form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4); }
+.form-actions { display: flex; justify-content: flex-end; gap: var(--space-3); margin-top: var(--space-5); }
+
+@media (max-width: 900px) {
+  .detail-grid { grid-template-columns: 1fr; }
+  .form-grid { grid-template-columns: 1fr; }
+}
+
+.back-link { display: inline-flex; align-items: center; gap: 6px; color: var(--text-secondary); font-size: var(--fs-sm); font-weight: 600; width: fit-content; }
+.back-link:hover { color: var(--color-primary-600); }

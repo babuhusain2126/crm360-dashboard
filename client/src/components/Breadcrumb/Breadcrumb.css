@@ -1,0 +1,5 @@
+.breadcrumb { display: flex; align-items: center; gap: 6px; font-size: var(--fs-sm); color: var(--text-tertiary); flex-wrap: wrap; }
+.breadcrumb-item { display: flex; align-items: center; gap: 6px; }
+.breadcrumb-item a:hover { color: var(--color-primary-600); }
+.breadcrumb-current { color: var(--text-primary); font-weight: 600; }
+.breadcrumb-sep { font-size: 12px; }

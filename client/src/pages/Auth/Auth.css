@@ -1,0 +1,15 @@
+.auth-title { font-size: var(--fs-xl); margin-bottom: 6px; }
+.auth-subtitle { color: var(--text-secondary); font-size: var(--fs-sm); margin-bottom: var(--space-6); }
+.auth-form { display: flex; flex-direction: column; gap: var(--space-4); }
+.auth-row-between { display: flex; align-items: center; justify-content: space-between; font-size: var(--fs-sm); }
+.auth-checkbox { display: flex; align-items: center; gap: 8px; color: var(--text-secondary); }
+.auth-link { color: var(--color-primary-600); font-weight: 600; }
+.auth-footer-text { text-align: center; margin-top: var(--space-6); font-size: var(--fs-sm); color: var(--text-secondary); }
+.auth-alert {
+  background: var(--color-danger-50); color: var(--color-danger-600);
+  padding: 10px 14px; border-radius: var(--radius-sm); font-size: var(--fs-sm);
+}
+.auth-success {
+  background: var(--color-success-50); color: var(--color-success-600);
+  padding: 10px 14px; border-radius: var(--radius-sm); font-size: var(--fs-sm);
+}

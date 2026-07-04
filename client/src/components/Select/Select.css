@@ -1,0 +1,10 @@
+.select-input {
+  padding: 10px 14px;
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  background: var(--bg-surface);
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color var(--transition-fast);
+}
+.select-input:focus { outline: none; border-color: var(--color-primary-500); box-shadow: var(--shadow-focus); }
